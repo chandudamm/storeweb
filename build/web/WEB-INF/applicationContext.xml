@@ -1,0 +1,13 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
+ 
+	<!-- Database Configuration -->
+	<import resource="spring/db/DataSource.xml"/>
+	<import resource="spring/db/HibernateSessionFactory.xml"/>
+ 
+	<!-- Beans Declaration -->
+	<import resource="spring/customer/CustomerBean.xml"/>
+ 
+</beans>
